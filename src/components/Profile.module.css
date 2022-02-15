@@ -1,0 +1,269 @@
+
+.roundedCircle {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .badge {
+      border-radius: 0.25rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      background-color:  #6c757d;
+      opacity: 1;
+      color: #fff;
+  }
+  
+  .fonts {
+  
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.25rem;
+      margin: 0.5rem 5rem 0.5rem 5rem;
+      font-weight: 500;
+      color: #212529;
+  }
+  
+  .fonts h5{
+      display: inline;
+      font: 20px system-ui, apple-system, Segoe UI;
+      font-weight: 500;
+  }
+  .fonts h6{
+      margin-block:  0.5rem;
+      display: block;
+      font: 22px system-ui, apple-system, "Segoe UI";
+  }
+  
+  .fonts p {
+      display: block;
+      font: 20px system-ui, apple-system, "Segoe UI";
+      margin-block:  0.5rem;
+  }
+  
+  .socialList {
+      height: 8rem;
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+  }
+  
+  .screenShot {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-between;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+  }
+  .screenShot img {
+      flex-direction: row;
+      width: 450px;
+      height: 100%;
+      object-fit: cover;
+  }
+  .vid {
+      margin-top: 1rem;;
+      width: 550px;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .Trow {
+      color: #808080;
+      display: flex;
+      margin: 3rem 4rem;
+      gap: 1rem;
+      
+  }
+  
+  .TrowItem1 {
+      flex: 1 1 0;
+      min-width: 0;
+  
+  
+  }
+  
+  .TrowItem2 {
+      flex: 0.5 1 0;
+      min-width: 0;
+  }
+  
+  .TrowItem3 {
+      flex: 0.5 1 0;
+      min-width: 0;
+  }
+  
+  .Trow h4, p, a {
+      font-size: 14px;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .Trow h4 {
+      color: gray;
+      font: 20px system-ui, apple-system, "Segoe UI";
+      font-size: calc(1.275rem + 0.3vw);
+      margin-bottom: 0.5rem;
+  }
+  
+  .TrowItem2 h4 {
+      width: 80%;
+      text-align: center;
+  }
+  
+  .footer {
+      display: inline-flex;  
+      flex-direction: row;
+      justify-content:flex-start ;
+      align-items: center;
+      gap: 3rem;
+      padding: 0 2rem 0 3rem;
+  }
+  
+  
+  .pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      text-align: justify;
+    }
+  
+  
+  
+  
+  @media screen and (max-width: 600px) {
+      .roundedCircle {
+          border-radius: 50%;
+          vertical-align: middle;
+          width: 150px;
+          margin-top: 1rem;
+          margin-bottom: 1rem;        
+        }
+  
+        .fonts {
+          width: 70%;
+          display: block;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1rem;
+          margin: .5rem auto;
+          font-weight: 500;
+          color: #212529;
+      }
+      
+      .fonts h5{
+          width: 20rem;
+          font: 14px system-ui, apple-system, Segoe UI;
+          font-weight: 500;
+      }
+      .fonts h6{
+          margin-block:  0.5rem;
+          display: block;
+          font: 16px system-ui, apple-system, "Segoe UI";
+      }
+      
+      .fonts p {
+          display: block;
+          font: 14px system-ui, apple-system, "Segoe UI";
+          margin-block:  0.5rem;
+      }
+      /* center items */
+      .socialList {
+          height: 20rem;
+          margin: center;
+          padding-right: 2rem;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          list-style: none;
+  
+      }
+  
+      .screenShot {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: space-between;
+          justify-content: center;
+          gap: 1rem;
+          margin: .5rem 0 .5rem 1rem;
+          padding-top: .5rem;
+      }
+      .screenShot img {
+          width: 80%;
+          height: 100%;
+          object-fit: cover;
+      }
+      .vid {
+          margin: .5rem 0 0 1.5rem;
+          width: 250px;
+          height: 50%;
+          object-fit: cover;
+      }
+      .Trow {
+          color: #808080;
+          display: flex;
+          flex-direction: column;
+          margin: 3rem 1rem 3rem 3rem;
+          gap: 1rem;
+          
+      }
+      
+      .TrowItem1 {
+          flex: 1 1 0;
+          min-width: 0;        
+      }
+      
+      .TrowItem2 {
+          flex: 0.5 1 0;
+          min-width: 0;
+      }
+      
+      .TrowItem3 {
+          flex: 0.5 1 0;
+          min-width: 0;
+      }
+      
+      .Trow h4, p, a {
+          font-size: 14px;
+          text-align: left;
+          padding: 0;
+          margin: 0;
+      }
+      
+      .Trow h4 {
+          color: gray;
+          font: 20px system-ui, apple-system, "Segoe UI";
+          font-size: calc(1.275rem + 0.3vw);
+          margin-bottom: 0.5rem;
+      }
+      
+      .TrowItem2 h4 {
+          text-align: left;
+      }
+      
+      .footer {
+          display: contents;  
+          flex-direction: table-column;
+          justify-content: center;
+          gap: 0;
+          padding: 0;
+      }
+  
+      pre {
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          text-align: justify;
+      }
+  
+    }
+  
