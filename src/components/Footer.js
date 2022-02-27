@@ -11,12 +11,12 @@ const Footer = () => {
         </div>
         <div className="column">
           <SocialIcon
-            class={classes.socialIcon}
+            className={classes.socialIcon}
             url="https://www.linkedin.com/in/sanadehghannayyeri/"
             bgColor="purple"
           />
           <SocialIcon
-            class={classes.socialIcon}
+            className={classes.socialIcon}
             url="https://github.com/"
             bgColor="purple"
           />
