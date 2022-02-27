@@ -20,8 +20,8 @@ const AddUser = (props) => {
     if (
       enteredUsername.trim().length === 0 ||
       enteredEmail.trim().length === 0 ||
-      enteredMessage.trim().length === 0 ||
-      !enteredEmail.trim().includes("@")
+      enteredMessage.trim().length === 0 
+      
     ) {
       setError({
         title: "Invalid input",
@@ -61,8 +61,7 @@ const AddUser = (props) => {
 
   const emailBlur = (event) => {
     if (
-      enteredEmail.trim().length === 0 ||
-      !enteredEmail.trim().includes("@")
+      enteredEmail.trim().length === 0 
     ) {
       setError(errorBlur);
       return;
