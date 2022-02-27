@@ -1,0 +1,70 @@
+.form input {
+  font: inherit;
+
+  width: 100%;
+  border: 1px solid #ccc;
+
+  margin-bottom: 0.5rem;
+}
+
+.form h3 {
+  color: darkorchid;
+}
+
+.form textarea {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+
+  margin-bottom: 0.5rem;
+  height: 100px;
+}
+
+.buttonTwo {
+  font: inherit;
+  display: block;
+  width: 100%;
+}
+
+.form {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 70rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .form input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form textarea {
+    font: inherit;
+
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttonTwo {
+    font: inherit;
+    display: block;
+    width: 100%;
+  }
+
+  .form {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 70rem;
+    text-align: center;
+  }
+}

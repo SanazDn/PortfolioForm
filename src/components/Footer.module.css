@@ -1,0 +1,32 @@
+.column {
+  float: left;
+  width: auto;
+}
+
+.row {
+  font-size: 14px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 2rem 0 3rem;
+  font: 14px system-ui;
+  font-family: apple-system, Segoe UI;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: auto;
+  }
+
+  .row {
+    font-size: 14px;
+    display: contents;
+    flex-direction: table-column;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+  }
+}

@@ -1,65 +1,63 @@
 .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 80%;
+  margin: 0 auto 2.5rem;
+  background-color: #fff;
+  color: plum;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #e1bee7;
+  transform: scaleY(1);
+  transition: all 0.4s;
+  transform-origin: bottom;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #8e24aa;
+  transform: scaleY(0);
+  transition: all 0.5s;
+  transform-origin: bottom;
+}
+
+.card:hover::after {
+  transform: scaleY(1);
+}
+
+.textCenter {
+  text-align: center;
+  width: 40;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
     width: 80%;
-    margin: 0 auto 2.5rem;
+    margin: 0 auto 1rem;
     background-color: #fff;
     color: plum;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-}
-
-.card:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 30px;
-    height: 100%;
-    background-color: #e1bee7;
-    transform: scaleY(1);
-    transition: all 0.4s;
-    transform-origin: bottom;
-}
-
-.card:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4px;
-    height: 100%;
-    background-color: #8e24aa;
-    transform: scaleY(0);
-    transition: all 0.5s;
-    transform-origin: bottom;
-}
-  
-.card:hover::after {
-    transform: scaleY(1);
-}
-
-.textCenter {
-    text-align: center;
-    width: 40;
-    border-radius: 8px;
   }
-
-  @media screen and (max-width: 600px) {
-
-    .card {
-        position: relative;
-        overflow: hidden;
-        border-radius: 8px;
-        cursor: pointer;
-        width: 80%;
-        margin: 0 auto 1rem;
-        background-color: #fff;
-        color: plum;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-  
 }

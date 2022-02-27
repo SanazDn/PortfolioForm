@@ -1,11 +1,11 @@
 import React from "react";
 import ReactGA from "react-ga";
-import  Card  from "./UI/Card";
-
+import Card from "./UI/Card";
 import classes from "./Profile.module.css";
-import  ButtonList  from "./UI/ButtonList";
-import  Button  from "./UI/Button";
-import { SocialIcon } from "react-social-icons";
+import ButtonList from "./UI/ButtonList";
+import Button from "./UI/Button";
+
+
 
 const Profile = () => {
   const handleClick = () => {
@@ -15,6 +15,8 @@ const Profile = () => {
       eventLabel: "Mobile Button",
     });
   };
+
+  // onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
 
   const buttonList = [
     {
@@ -282,33 +284,8 @@ const Profile = () => {
           </div>
         </div>
       </Card>
-      <Card>
-        <div className={classes.footer}>
-          <pre className={classes.pre}>Sanaz Dehghannayyeri</pre>
-          <a href="/">
-            <i className="fa fa-instagram"></i>
-          </a>
-          <div>
-            <SocialIcon
-              className={classes.socialIcon}
-              url="https://www.linkedin.com/in/sanadehghannayyeri/"
-              bgColor="purple"
-              //style={{ margin: "1.5rem 1.5rem 1.5rem 0"}}
-            />
-            <SocialIcon
-              className={classes.socialIcon}
-              url="https://github.com/"
-              bgColor="purple"
-              //style={{ margin: "1.5rem 1.5rem 1.5rem 0"}}
-            />
-          </div>
-          <pre pre className={classes.pre}>
-            Made with React, CSS/JS, Bootstrap
-          </pre>
-        </div>
-      </Card>
     </>
   );
-}
+};
 
 export default Profile;
