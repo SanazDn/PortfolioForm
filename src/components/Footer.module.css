@@ -23,9 +23,7 @@
 
   .row {
     font-size: 14px;
-    display: contents;
-    flex-direction: table-column;
-    justify-content: center;
+    flex-direction: column-reverse;
     gap: 0;
     padding: 0;
   }
