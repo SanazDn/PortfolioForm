@@ -55,7 +55,7 @@ const Profile = () => {
       <Card>
         <div>
           <img
-            src={"a3.jpg"}
+            src={"a3 copy.WebP"}
             alt="my profile"
             className={classes.roundedCircle}
           />
