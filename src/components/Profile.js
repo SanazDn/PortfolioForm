@@ -268,7 +268,7 @@ const Profile = () => {
           <div className={classes.TrowItem2}>
             <h4>Link</h4>
             <h4>
-              <a href="https://github.com/SanazDn/DBS311-FinalProject.git">
+              <a href="https://github.com/SanazDn/DBS211-FinalProject">
                 Code
               </a>
             </h4>
