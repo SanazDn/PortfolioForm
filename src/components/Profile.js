@@ -56,7 +56,7 @@ const Profile = () => {
         <div>
           <img
             src={"a3 copy 2.WebP"}
-            alt="my profile"
+            alt="sanaz dehghan"
             className={classes.roundedCircle}
           />
         </div>
@@ -129,9 +129,9 @@ const Profile = () => {
       </Card>
       <Card>
         <div className={classes.screenShot}>
-          <img src={"p1.png"} alt="my profile" />
+          <img src={"p1.png"} alt="portfolio" />
 
-          <img src={"p1-2.jpg"} alt="p2" />
+          <img src={"p1-2.jpg"} alt="web developer" />
         </div>
         <video
           autoPlay="autoplay"
@@ -220,7 +220,7 @@ const Profile = () => {
       </Card>
       <Card>
         <div className={classes.screenShot}>
-          <img src={"sql2.png"} alt="my profile" />
+          <img src={"sql2.png"} alt="web design" />
         </div>
         <div className={classes.Trow}>
           <div className={classes.TrowItem1}>
@@ -253,7 +253,7 @@ const Profile = () => {
       </Card>
       <Card>
         <div className={classes.screenShot}>
-          <img src={"sql1.png"} alt="my profile" />
+          <img src={"sql1.png"} alt="web design" />
         </div>
         <div className={classes.Trow}>
           <div className={classes.TrowItem1}>
