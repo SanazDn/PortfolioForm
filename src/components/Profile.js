@@ -63,12 +63,12 @@ const Profile = () => {
         <span className={classes.badge}> Pro </span>
         <div className={classes.fonts}>
           <h5>Sanaz Dehghannayyeri</h5>
-          <h6>Interactive Designer & Developer</h6>
+          <h6>Interactive Freelance Web Designer & Developer</h6>
           <p>
-            I am a Front End web developer. I'm excited about web technologies
+            I am a Freelance Web Developer and Designer. I'm excited about web technologies
             and programming including React,JavaScript, SQL and I always push
             myself towards excellence. I created projects focused on React,
-            Angular, SQL and C++ materials.{" "}
+            Angular, WIX, wordpress, SQL and C++ materials for the business owners and compenies. I also do SEO for my clients to see their website in google.{" "} 
           </p>
         </div>
         <ButtonList style={classes.socialList}>
